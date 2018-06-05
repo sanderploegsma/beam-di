@@ -1,5 +1,8 @@
-package com.github.sanderploegsma.beam;
+package com.github.sanderploegsma.beam.functions;
 
+import com.github.sanderploegsma.beam.ApplicationOptions;
+import com.github.sanderploegsma.beam.ResourceContainer;
+import com.github.sanderploegsma.beam.functions.LoggingOutput;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.options.PipelineOptionsFactory;
 import org.apache.beam.sdk.transforms.Create;

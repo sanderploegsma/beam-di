@@ -1,5 +1,6 @@
-package com.github.sanderploegsma.beam;
+package com.github.sanderploegsma.beam.functions;
 
+import com.github.sanderploegsma.beam.ApplicationOptions;
 import org.apache.beam.sdk.transforms.DoFn;
 
 import java.util.function.Function;

@@ -1,5 +1,7 @@
 package com.github.sanderploegsma.beam;
 
+import com.github.sanderploegsma.beam.functions.LoggingOutput;
+import com.github.sanderploegsma.beam.functions.StringReverser;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.options.PipelineOptionsFactory;
 import org.apache.beam.sdk.transforms.Create;
